@@ -38,6 +38,7 @@ end
 
 group :production do
   gem 'heroku_rails_deflate'
+  gem 'newrelic_rpm'
 end
 
 # To use ActiveModel has_secure_password
