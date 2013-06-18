@@ -1,4 +1,7 @@
 class PostsController < ApplicationController
+  caches_page :index
+  cache_sweeper :post_sweeper
+
   # GET /posts
   # GET /posts.json
   def index
